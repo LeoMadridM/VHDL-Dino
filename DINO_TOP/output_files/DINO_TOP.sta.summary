@@ -1,0 +1,137 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'MQEDO_VSYNC:I4|EDO.E1'
+Slack : -4.538
+TNS   : -202.911
+
+Type  : Slow 1200mV 85C Model Setup 'DIVISOR_FREC:I1|Q'
+Slack : -3.749
+TNS   : -52.296
+
+Type  : Slow 1200mV 85C Model Setup 'CLK'
+Slack : -0.638
+TNS   : -0.638
+
+Type  : Slow 1200mV 85C Model Hold 'DIVISOR_FREC:I1|Q'
+Slack : 0.347
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'MQEDO_VSYNC:I4|EDO.E1'
+Slack : 0.348
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'CLK'
+Slack : 0.455
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'MQEDO_VSYNC:I4|EDO.E1'
+Slack : -1.572
+TNS   : -1.572
+
+Type  : Slow 1200mV 85C Model Removal 'MQEDO_VSYNC:I4|EDO.E1'
+Slack : 0.975
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CLK'
+Slack : -3.000
+TNS   : -4.403
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'MQEDO_VSYNC:I4|EDO.E1'
+Slack : -1.403
+TNS   : -82.777
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DIVISOR_FREC:I1|Q'
+Slack : -1.403
+TNS   : -43.493
+
+Type  : Slow 1200mV 0C Model Setup 'MQEDO_VSYNC:I4|EDO.E1'
+Slack : -4.192
+TNS   : -181.693
+
+Type  : Slow 1200mV 0C Model Setup 'DIVISOR_FREC:I1|Q'
+Slack : -3.339
+TNS   : -45.110
+
+Type  : Slow 1200mV 0C Model Setup 'CLK'
+Slack : -0.539
+TNS   : -0.539
+
+Type  : Slow 1200mV 0C Model Hold 'DIVISOR_FREC:I1|Q'
+Slack : 0.312
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'MQEDO_VSYNC:I4|EDO.E1'
+Slack : 0.312
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'CLK'
+Slack : 0.408
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'MQEDO_VSYNC:I4|EDO.E1'
+Slack : -1.475
+TNS   : -1.475
+
+Type  : Slow 1200mV 0C Model Removal 'MQEDO_VSYNC:I4|EDO.E1'
+Slack : 0.896
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CLK'
+Slack : -3.000
+TNS   : -4.403
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'MQEDO_VSYNC:I4|EDO.E1'
+Slack : -1.403
+TNS   : -82.777
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DIVISOR_FREC:I1|Q'
+Slack : -1.403
+TNS   : -43.493
+
+Type  : Fast 1200mV 0C Model Setup 'MQEDO_VSYNC:I4|EDO.E1'
+Slack : -1.482
+TNS   : -51.639
+
+Type  : Fast 1200mV 0C Model Setup 'DIVISOR_FREC:I1|Q'
+Slack : -1.079
+TNS   : -5.575
+
+Type  : Fast 1200mV 0C Model Setup 'CLK'
+Slack : 0.043
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'CLK'
+Slack : 0.124
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'DIVISOR_FREC:I1|Q'
+Slack : 0.152
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'MQEDO_VSYNC:I4|EDO.E1'
+Slack : 0.152
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'MQEDO_VSYNC:I4|EDO.E1'
+Slack : -0.110
+TNS   : -0.110
+
+Type  : Fast 1200mV 0C Model Removal 'MQEDO_VSYNC:I4|EDO.E1'
+Slack : 0.278
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CLK'
+Slack : -3.000
+TNS   : -4.010
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'MQEDO_VSYNC:I4|EDO.E1'
+Slack : -1.000
+TNS   : -59.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DIVISOR_FREC:I1|Q'
+Slack : -1.000
+TNS   : -31.000
+
+------------------------------------------------------------

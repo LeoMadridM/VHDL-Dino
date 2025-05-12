@@ -1,0 +1,47 @@
+--Melisa Saucedo Sánchez A01748077
+--CONTADOR DE 10 BITS PARA CONTAR HASTA 800 DE LA HORIZONTAL DEL VGA 
+
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_arith.all;
+use ieee.std_logic_unsigned.all;
+
+Entity CONT_V525 is
+	port(clk, rst	:	in std_logic;
+		  cuenta		:	out std_logic_vector(9 downto 0));
+end entity;
+
+Architecture ARC OF CONT_V525 is 
+
+	signal rst_int : std_logic;
+	signal count : std_logic_vector(9 downto 0);
+	
+begin
+
+	P1 : process (clk, rst)
+	begin
+		if (rst='0') then 
+			count <= "0000000000";
+			
+		elsif (clk'event and clk='1') then
+			count <= count + 1; 
+
+		end if;
+	end process;
+	
+	P2 : process (rst, count)
+		begin
+			case rst is 
+				when '0' => rst_int <= '0';
+				when others => if (count = "1000001100") then --cuando llegue a 524, el rst interno estará en 0
+										rst_int <= '0';
+									else
+										rst_int <= '1'; --si no, sigue contando o reinicia
+									end if;
+									
+			end case;
+	end process;
+	
+	cuenta <= count;
+
+end architecture;

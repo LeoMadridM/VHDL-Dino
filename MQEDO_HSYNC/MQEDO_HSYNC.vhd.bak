@@ -1,0 +1,7 @@
+--Melisa Saucedo Sánchez A01748077
+--MAQUINA DE ESTADOS PARA LA SINCRONIA HORIZONTAL DEL VGA
+
+library ieee;
+use ieee.std_logic_1164.all;
+
+Entity MQEDO

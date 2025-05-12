@@ -1,0 +1,34 @@
+--Melisa Saucedo Sánchez A01748077
+--MAQUINA DE ESTADOS PARA LA SINCRONIA VERTICAL DEL VGA
+
+library ieee;
+use ieee.std_logic_1164.all;
+
+Entity MQEDO_VSYNC is
+	port(CLK, RST, START	: in std_logic;
+		  cont				: in std_logic_vector(9 downto 0);
+		  VSYNC				: out std_logic));
+end entity;
+
+Architecture ARC of MQEDO_VSYNC is
+	
+	type ESTADOS is (IDLE, E1, E2, E3, E4); --ESTADOS
+	signal EDO, EDO_F : ESTADOS;
+
+begin 
+
+	P1FLIPFLOPS : process (CLK, ENA, RST)
+	begin
+		if RST = '0' then --RST asíncrono en bajo
+			EDO <= IDLE;
+			EDO_Y <= IDLE;
+		elsif (CLK'event and CLK = '1') then
+			if (ENA = '1') then
+				EDO <= EDO_F;
+				EDO_Y <= EDO_X;
+			end if;
+		end if;
+	end process;
+	
+
+	

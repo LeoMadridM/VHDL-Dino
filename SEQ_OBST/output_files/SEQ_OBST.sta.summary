@@ -1,0 +1,41 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'VSYNC'
+Slack : -3.204
+TNS   : -87.247
+
+Type  : Slow 1200mV 85C Model Hold 'VSYNC'
+Slack : 0.348
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'VSYNC'
+Slack : -3.000
+TNS   : -46.493
+
+Type  : Slow 1200mV 0C Model Setup 'VSYNC'
+Slack : -2.876
+TNS   : -77.777
+
+Type  : Slow 1200mV 0C Model Hold 'VSYNC'
+Slack : 0.312
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'VSYNC'
+Slack : -3.000
+TNS   : -46.493
+
+Type  : Fast 1200mV 0C Model Setup 'VSYNC'
+Slack : -0.767
+TNS   : -18.486
+
+Type  : Fast 1200mV 0C Model Hold 'VSYNC'
+Slack : 0.153
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'VSYNC'
+Slack : -3.000
+TNS   : -34.969
+
+------------------------------------------------------------

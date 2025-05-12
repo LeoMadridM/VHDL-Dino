@@ -1,0 +1,129 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "limUP[0]",
+					"strict" : false
+				},
+				{
+					"name" : "limUP[1]",
+					"strict" : false
+				},
+				{
+					"name" : "limUP[2]",
+					"strict" : false
+				},
+				{
+					"name" : "limUP[3]",
+					"strict" : false
+				},
+				{
+					"name" : "limUP[4]",
+					"strict" : false
+				},
+				{
+					"name" : "limUP[5]",
+					"strict" : false
+				},
+				{
+					"name" : "limUP[6]",
+					"strict" : false
+				},
+				{
+					"name" : "limUP[7]",
+					"strict" : false
+				},
+				{
+					"name" : "limUP[8]",
+					"strict" : false
+				},
+				{
+					"name" : "limUP[9]",
+					"strict" : false
+				},
+				{
+					"name" : "limDO[0]",
+					"strict" : false
+				},
+				{
+					"name" : "limDO[1]",
+					"strict" : false
+				},
+				{
+					"name" : "limDO[2]",
+					"strict" : false
+				},
+				{
+					"name" : "limDO[3]",
+					"strict" : false
+				},
+				{
+					"name" : "limDO[4]",
+					"strict" : false
+				},
+				{
+					"name" : "limDO[5]",
+					"strict" : false
+				},
+				{
+					"name" : "limDO[6]",
+					"strict" : false
+				},
+				{
+					"name" : "limDO[7]",
+					"strict" : false
+				},
+				{
+					"name" : "limDO[8]",
+					"strict" : false
+				},
+				{
+					"name" : "limDO[9]",
+					"strict" : false
+				},
+				{
+					"name" : "flag1",
+					"strict" : false
+				},
+				{
+					"name" : "cont1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "cont1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "cont1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "cont1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "cont1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "cont1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "cont1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "VSYNC",
+					"strict" : false
+				},
+				{
+					"name" : "push",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,97 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "limIZQ[0]",
+					"strict" : false
+				},
+				{
+					"name" : "limIZQ[1]",
+					"strict" : false
+				},
+				{
+					"name" : "limIZQ[2]",
+					"strict" : false
+				},
+				{
+					"name" : "limIZQ[3]",
+					"strict" : false
+				},
+				{
+					"name" : "limIZQ[4]",
+					"strict" : false
+				},
+				{
+					"name" : "limIZQ[5]",
+					"strict" : false
+				},
+				{
+					"name" : "limIZQ[6]",
+					"strict" : false
+				},
+				{
+					"name" : "limIZQ[7]",
+					"strict" : false
+				},
+				{
+					"name" : "limIZQ[8]",
+					"strict" : false
+				},
+				{
+					"name" : "limIZQ[9]",
+					"strict" : false
+				},
+				{
+					"name" : "limDER[0]",
+					"strict" : false
+				},
+				{
+					"name" : "limDER[1]",
+					"strict" : false
+				},
+				{
+					"name" : "limDER[2]",
+					"strict" : false
+				},
+				{
+					"name" : "limDER[3]",
+					"strict" : false
+				},
+				{
+					"name" : "limDER[4]",
+					"strict" : false
+				},
+				{
+					"name" : "limDER[5]",
+					"strict" : false
+				},
+				{
+					"name" : "limDER[6]",
+					"strict" : false
+				},
+				{
+					"name" : "limDER[7]",
+					"strict" : false
+				},
+				{
+					"name" : "limDER[8]",
+					"strict" : false
+				},
+				{
+					"name" : "limDER[9]",
+					"strict" : false
+				},
+				{
+					"name" : "VSYNC",
+					"strict" : false
+				},
+				{
+					"name" : "ENA",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
