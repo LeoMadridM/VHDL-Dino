@@ -18,7 +18,7 @@ Components:
 
 Component Explanation:
 
-DIVISOR_FREQ = Frequency Divider
+DIVISOR_FREQ = Frequency Divider;
 We divided the clock frequency so that our would work with 25 MHz and that would mean that the game works with 60 frames per second.
 
 CONT_H800
