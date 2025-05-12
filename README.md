@@ -19,10 +19,10 @@ Components:
 Component Explanation:
 
 DIVISOR_FREQ = Frequency Divider
-    We divided the clock frequency so that our would work with 25 MHz and that would mean that the game works with 60 frames per second.
+We divided the clock frequency so that our would work with 25 MHz and that would mean that the game works with 60 frames per second.
 
-    CONT_H800
-        This component works for stablishing the 800 horizontal pixeles of the VGA. Only 640 are visible. 
+CONT_H800
+This component works for stablishing the 800 horizontal pixeles of the VGA. Only 640 are visible. 
 
     CONT_V525
         This component works for stablishing the 525 Vertical pixeles of the VGA. Only 480 are visible. The enable of the CONT_H800 and the event of the clock makes it so it starts the count. The outputs are the count and a syncronous signal.
