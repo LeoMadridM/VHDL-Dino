@@ -6,15 +6,15 @@ This program requieres an VGA interface and an FPGA.
 
 Top level entity
 It consists on a 50 MHz clock, Reset, Start, Enable and a push button (Inputs). Reset, Start and Enable are switches of the FPGA. The outputs are the Vertical sincronous signal (VSYNC), Horizontal sincronous signal (HSYNC) and the RGB bits.
-Components:
-    DIVISOR_FREQ
-    CONT_H800
-    CONT_V525
-    MQEDO_VSYNC
-    MQEDO_HSYNC
-    SEQ_DINO
-    SEQ_OBST
-    SEQ_OBST2
+## Components:
+* DIVISOR_FREQ
+* CONT_H800
+* CONT_V525
+* MQEDO_VSYNC
+* MQEDO_HSYNC
+* SEQ_DINO
+* SEQ_OBST
+* SEQ_OBST2
 
 Component Explanation:
 
