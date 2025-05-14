@@ -1,4 +1,5 @@
 # VHDL-Dino
+<img align="right" height="150" src="https://github.com/LeoMadridM/VHDL-Dino/blob/main/gif%20dino.gif"  />
 VHDL Project of Chrome Dino Game
 This project is a the Google Chrome Dinosaure Game made with VHDL in an FPGA.
 This project was made by Melisa Saucedo and Leonardo Madrid. 
